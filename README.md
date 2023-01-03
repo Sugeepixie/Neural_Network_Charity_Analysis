@@ -7,19 +7,20 @@ The purpose of this was to develop a neural network to determine which organizat
 1. What variable(s) are considered the target(s) for your model?
    IS_SUCCESSFUL coulumn is the target of the model.
 
-   Image 1
+   ![Target](https://user-images.githubusercontent.com/76926148/210296624-60892cc5-1cb1-45e3-a65a-e943c7705030.PNG)
 
 2. What variable(s) are considered to be the features for your model?
    APPLICATION_TYPE, ASK_AMT, INCOME_AMT, CLASSIFICATION, AFFILIATION, SPECIAL_CONSIDERATIONS, STATUS, USE_CASE
 
-   Image 2
+   ![Features](https://user-images.githubusercontent.com/76926148/210296653-5b3d061f-4e73-4026-abdb-93192fc26490.PNG)
+
 
 
 
 3. What variable(s) are neither targets nor features, and should be removed from the input data?
    EIN, NAME
 
-   Image 3
+   ![Drops](https://user-images.githubusercontent.com/76926148/210296680-9ddc6e88-ec52-4e9f-85f3-3ee3a1592671.PNG)
 
 
 * Compiling, Training, and Evaluating the Model
